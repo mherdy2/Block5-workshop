@@ -1,11 +1,17 @@
-body{
-    background-color: lightblue;
+/* zoo containing image and text */
+.zoo {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(143, 76, 76);
 }
-header{
-    font-size: 35px;
-    background-color:aqua
+.top-center{
+    position: absolute;
+    top: 15px;
+    left: 44%;
+    right: 50%;
+    transform: translate(-50%, -50%);
 }
-
 h1{
     text-align: center;
     }
